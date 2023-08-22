@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Attachment</title>
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Attachment">
+            <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+            <path d="M15,7 L8.5,13.5 C7.6715729,14.3284271 7.67157291,15.6715729 8.50000002,16.5 C9.32842714,17.3284271 10.6715729,17.3284271 11.5,16.5 L18,10 C19.6568542,8.34314574 19.6568542,5.65685428 18,4.00000004 C16.3431457,2.34314581 13.6568543,2.34314579 12,4 L5.5,10.5 C3.01471869,12.9852814 3.01471872,17.0147186 5.50000007,19.4999999 C7.98528142,21.9852813 12.0147186,21.9852813 14.5,19.5 L21,13" id="Path" stroke="#ff7758" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

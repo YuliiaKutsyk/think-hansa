@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Organic</title>
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Organic">
+            <polygon id="Path" points="0 0 16 0 16 16 0 16"></polygon>
+            <path d="M1.33333333,6 C1.33333333,9.68189833 4.31810167,12.6666667 8,12.6666667 C11.6818983,12.6666667 14.6666667,9.68189833 14.6666667,6" id="Path" stroke="#50A228" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M8,12.6666667 C8,8.98476833 10.9847683,6 14.6666667,6" id="Path" stroke="#50A228" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M1.33333333,6 C3.10144327,6 4.79713602,6.70237894 6.04737854,7.95262146 C7.29762106,9.20286398 8,10.8985567 8,12.6666667" id="Path" stroke="#50A228" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M8,2.66666667 C9.35947791,3.9644668 10.0870658,5.78952 9.99333333,7.66666667" id="Path" stroke="#50A228" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M6.00666667,7.66666667 C5.91293421,5.78952 6.64052209,3.9644668 8,2.66666667" id="Path" stroke="#50A228" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

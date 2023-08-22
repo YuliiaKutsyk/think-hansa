@@ -1,0 +1,96 @@
+.flex {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+.flex-center {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+}
+
+.absolute-center {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.transition {
+  transition: .3s all ease-out;
+}
+
+.bottom-banner_section {
+  background-color: #fff;
+  padding-bottom: 110px;
+}
+
+.bottom-banner {
+  position: relative;
+  width: 100%;
+  padding: 55px;
+  border-radius: 2px;
+}
+
+.bottom-banner img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.bottom-banner h4 {
+  color: #fff;
+  position: relative;
+  z-index: 10;
+  margin-bottom: 15px;
+}
+
+.bottom-banner p {
+  display: block;
+  color: #fff;
+  position: relative;
+  z-index: 10;
+  margin-bottom: 30px;
+}
+
+.bottom-banner .blank-button {
+  color: #fff;
+}
+
+.bottom-banner .blank-button:hover {
+  color: #000;
+}
+
+@media screen and (max-width: 990px) {
+  .bottom-banner_section {
+    padding-bottom: 55px;
+  }
+  .bottom-banner {
+    padding: 55px 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .bottom-banner {
+    padding: 55px 20px;
+  }
+}
+
+/*# sourceMappingURL=../../maps/import/component-styles/bottom-banner.css.map */

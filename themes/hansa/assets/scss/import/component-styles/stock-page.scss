@@ -1,0 +1,40 @@
+@import "../variables";
+
+.stock-page_section {
+	padding-bottom: 110px;
+}
+
+.text-center {
+	max-width: 800px;
+	width: 100%;
+	margin: 0 auto;
+	h6 {
+		margin-bottom: 24px;
+	}
+	p {
+		display: block;
+		margin-bottom: 24px;
+	}
+	.blank-button {
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.stock-page_section {
+		padding-bottom: 55px;
+	}
+	.text-center {
+		max-width: 100%;
+		h6 {
+			margin-bottom: 16px;
+		}
+		p {
+			display: block;
+			margin-bottom: 16px;
+		}
+		.blank-button {
+			margin-top: 24px;
+		}
+	}
+}

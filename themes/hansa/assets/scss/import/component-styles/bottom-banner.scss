@@ -1,0 +1,52 @@
+@import "../variables";
+
+.bottom-banner_section {
+	background-color: #fff;
+	padding-bottom: 110px;
+}
+
+.bottom-banner {
+	position: relative;
+	width: 100%;
+	padding: 55px;
+	border-radius: 2px;
+	img {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	h4 {
+		color: #fff;
+		position: relative;
+		z-index: 10;
+		margin-bottom: 15px;
+	}
+	p {
+		display: block;
+		color: #fff;
+		position: relative;
+		z-index: 10;
+		margin-bottom: 30px;
+	}
+	.blank-button {
+		color: #fff;
+		&:hover {
+			color: #000;
+		}
+	}
+}
+
+@media screen and(max-width: 990px) {
+	.bottom-banner_section {
+		padding-bottom: 55px;
+	}
+	.bottom-banner {
+		padding: 55px 30px;
+	}
+}
+
+@media screen and(max-width: 500px) {
+	.bottom-banner {
+		padding: 55px 20px;
+	}
+}

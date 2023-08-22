@@ -1,0 +1,60 @@
+// Font Sizes
+$base-font-size: 16px;
+$em-base: $base-font-size;
+$base-font-family: 'Montserrat', sans-serif;
+$heading-font-family: $base-font-family;
+
+// Line height
+$base-line-height: 22px;
+$heading-line-height: 32px;
+
+// Colors
+$gold: #D4AF37;
+$coral: #FF7758;
+$gray-dark: #000;
+$gray-light: #F4F4F4;
+
+// Font Colors
+$base-font-color: $gray-dark;
+$action-color: $gray-light;
+
+// Background Colors
+$base-background-color: #fff;
+.flex {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+.flex-center {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+}
+
+.absolute-center {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.transition {
+  transition: .3s all ease-out;
+}

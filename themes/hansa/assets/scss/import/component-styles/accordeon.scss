@@ -1,0 +1,123 @@
+@import "../variables";
+
+.accordeon-block {
+	max-width: 800px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.accordeon-item {
+	margin-bottom: 30px;
+	border-bottom: 1px solid #e9e9e9;
+	position: relative;
+	@extend .transition;
+	height: 57px;
+	overflow: hidden;
+	&:after {
+		display: block;
+		content:'';
+		width: 24px;
+		height: 24px;
+		background: transparent url('../img/Small-Arrow-Down.svg') center no-repeat;
+		background-size: contain;
+		position: absolute;
+		top: 0;
+		right: 0;
+		@extend .transition;
+		z-index: 10;
+	}
+	&.active {
+		height: auto;
+		.accordeon-description {
+			display: block;
+			transform: translateY(0);
+		}
+		&:after {
+			transform: rotate(180deg);
+		}
+	}
+	table {
+		display: block;
+		border-radius: 2px;
+		overflow: hidden;
+		border: 1px solid #E9E9E9;
+		margin-bottom: 30px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+		tbody {
+			display: block;
+			width: 100%;
+		}
+		tr {
+			@extend .flex-between;
+			width: 100%;
+		}
+		th, td {
+			display: block;
+			text-align: center;
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 18px;
+			padding: 16px 4px;
+			width: 12.5%;
+			&:nth-child(odd) {
+				background: #E9E9E9;
+			}
+		}
+		td {
+			padding-bottom: 16px;
+			&:last-child {
+				padding-bottom: 0;
+			}
+		}
+	}
+}
+
+.accordeon-title {
+	position: relative;
+	cursor: pointer;
+	background: #fff;
+	padding-bottom: 30px;
+	z-index: 10;
+}
+
+.accordeon-description {
+	@extend .transition;
+	transform: translateY(-125%);
+	padding-bottom: 30px;
+	p {
+		display: block;
+		margin-bottom: 20px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.accordeon-item {
+		margin-bottom: 20px;
+		.accordeon-description {
+			overflow-y: scroll;
+		}
+		table {
+			width: 150%;
+			overflow: visible;
+			tbody {
+				width: 150%;
+				overflow-y: scroll;
+			}
+			th, td {
+				font-size: 12px;
+				line-height: 16px;
+			}
+		}
+	}
+	.accordeon-title {
+		padding-bottom: 20px;
+	}
+	.accordeon-description {
+		padding-bottom: 20px;
+	}
+}

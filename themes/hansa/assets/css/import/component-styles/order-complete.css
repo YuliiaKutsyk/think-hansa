@@ -1,0 +1,79 @@
+.flex {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+.flex-center {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+}
+
+.absolute-center {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.transition {
+  transition: .3s all ease-out;
+}
+
+.order-options_wrap {
+  margin-bottom: 40px;
+}
+
+.order-options_wrap p {
+  display: block;
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 20px;
+}
+
+.order-options_wrap p:last-child {
+  margin-bottom: 0;
+}
+
+.order-options_wrap p a {
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 990px) {
+  .order-left_wrap {
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .order-left_wrap {
+    margin-bottom: 0;
+  }
+  .order-right_wrap {
+    display: none;
+  }
+  .order-complete_page {
+    padding-top: 0;
+  }
+}
+
+/*# sourceMappingURL=../../maps/import/component-styles/order-complete.css.map */

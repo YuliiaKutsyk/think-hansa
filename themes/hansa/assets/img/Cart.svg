@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Cart</title>
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Cart">
+            <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+            <circle id="Oval" stroke="#000000" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" cx="6" cy="19" r="2"></circle>
+            <circle id="Oval" stroke="#000000" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" cx="17" cy="19" r="2"></circle>
+            <polyline id="Path" stroke="#000000" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" points="17 17 6 17 6 3 4 3"></polyline>
+            <polyline id="Path" stroke="#000000" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" points="6 5 20 6 19 13 6 13"></polyline>
+        </g>
+    </g>
+</svg>

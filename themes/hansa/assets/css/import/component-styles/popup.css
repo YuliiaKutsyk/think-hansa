@@ -1,0 +1,240 @@
+.flex {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+.flex-center, .adult-popup .adult-popup_inner, .popup-inner {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+}
+
+.absolute-center {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.transition {
+  transition: .3s all ease-out;
+}
+
+.adult-popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+
+.adult-popup .adult-popup_inner {
+  width: 100%;
+  height: 100%;
+}
+
+.adult-popup .adult-popup_content {
+  background-color: #fff;
+  padding: 112px;
+  border-radius: 2px;
+  max-width: 800px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.adult-popup .adult-popup_content:after {
+  display: block;
+  content: '';
+  width: 300px;
+  height: 300px;
+  background: transparent url("../img/Hansa-Mark-Logo-Grey.svg") center no-repeat;
+  background-size: contain;
+  position: absolute;
+  right: -50px;
+  bottom: -50px;
+}
+
+.adult-popup .age-popup_title {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.adult-popup .age-form_title {
+  display: block;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.adult-popup form {
+  display: block;
+  max-width: 490px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+}
+
+.adult-popup form .form-row {
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+.adult-popup form .submit-form_wrap {
+  margin-top: 40px;
+}
+
+.adult-popup form .submit-form_wrap.disabled {
+  color: #fff;
+  background: #D7D7D7;
+}
+
+.adult-popup form .submit-form_wrap .submit-form.disabled {
+  opacity: 0.3;
+}
+
+.adult-popup form .form-row_popup input {
+  display: none !important;
+}
+
+.adult-popup form .checkbox-label_adult {
+  width: 200px;
+  margin: 0 auto;
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  opacity: 1 !important;
+  color: rgba(0, 0, 0, 0.7);
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+}
+
+.adult-popup form .checkbox-label_adult:before {
+  display: block;
+  content: '';
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  border: 1px solid #ccc9c9;
+  position: absolute;
+  left: 0;
+  top: -3px;
+}
+
+.adult-popup form .checkbox-label_adult.active:before {
+  background: #000 url("../img/check-white.svg") center no-repeat;
+  background-size: 60%;
+}
+
+.adult-popup form .checkbox-label_adult a {
+  color: #000;
+  font-weight: 600;
+}
+
+.new-review_popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.new-review_popup .close-popup_review {
+  display: block;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 0;
+  right: -56px;
+  background: transparent url("../img/close-white.svg") center no-repeat;
+  background-size: contain;
+  z-index: 5;
+}
+
+.new-review_popup .popup-content {
+  background-color: #fff;
+  border-radius: 2px;
+  padding: 55px;
+  position: relative;
+  width: 85%;
+  max-width: 800px;
+}
+
+.new-review_popup .submit-review {
+  width: 165px;
+  display: block;
+  border: 1px solid #E9E9E9;
+  padding: 14px 0;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #000;
+  background: #fff;
+  margin-top: 40px;
+}
+
+.popup-inner {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 990px) {
+  .adult-popup .adult-popup_inner {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .new-review_popup .close-popup_review {
+    right: -45px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .adult-popup .adult-popup_inner {
+    width: 100%;
+  }
+  .adult-popup .adult-popup_content {
+    padding: 80px 20px;
+  }
+  .adult-popup form .submit-form_wrap {
+    margin-top: 30px;
+  }
+  .new-review_popup .close-popup_review {
+    width: 28px;
+    height: 28px;
+    top: 15px;
+    right: 15px;
+    background: transparent url("../img/Close.svg") center no-repeat;
+    background-size: contain;
+  }
+  .new-review_popup .popup-content {
+    width: 100%;
+    padding: 55px 20px;
+  }
+}
+
+/*# sourceMappingURL=../../maps/import/component-styles/popup.css.map */

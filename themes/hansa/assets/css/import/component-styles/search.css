@@ -1,0 +1,76 @@
+.flex, .empty-search_wrap {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+.flex-center {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+}
+
+.absolute-center {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.transition {
+  transition: .3s all ease-out;
+}
+
+.empty-search_wrap {
+  padding: 120px 0 160px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.empty-search_wrap .nosearch-icon {
+  display: block;
+  width: 65px;
+  height: 65px;
+  margin: 0 auto;
+  object-fit: contain;
+  margin-bottom: 40px;
+}
+
+.empty-search_wrap h1 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.empty-search_wrap p {
+  display: block;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.empty-search_wrap .blank-button {
+  width: 145px;
+}
+
+@media screen and (max-width: 500px) {
+  .empty-search_wrap {
+    padding: 40px 0 55px;
+  }
+}
+
+/*# sourceMappingURL=../../maps/import/component-styles/search.css.map */

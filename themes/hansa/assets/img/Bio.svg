@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Bio</title>
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Bio">
+            <polygon id="Path" points="0 0 16 0 16 16 0 16"></polygon>
+            <path d="M3.33333333,14 C3.66666667,11 5,8.66666667 8,7.33333333" id="Path" stroke="#50A228" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M6,12 C10.1453333,12 13,9.808 13.3333333,4 L13.3333333,2.66666667 L10.6573333,2.66666667 C4.65733333,2.66666667 2.66666667,5.33333333 2.65733333,8.66666667 C2.65733333,9.33333333 2.65733333,10.6666667 3.99066667,12 L5.99066667,12 L6,12 Z" id="Path" stroke="#50A228" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

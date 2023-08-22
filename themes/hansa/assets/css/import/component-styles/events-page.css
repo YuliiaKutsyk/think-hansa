@@ -1,0 +1,93 @@
+.flex {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+.flex-center {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+}
+
+.absolute-center {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.transition {
+  transition: .3s all ease-out;
+}
+
+.event-item {
+  margin-bottom: 55px;
+}
+
+.event-item:last-child, .event-item:nth-last-child(2) {
+  margin-bottom: 0;
+}
+
+.event-thumb {
+  display: block;
+  border-radius: 2px;
+  overflow: hidden;
+  height: 444px;
+  margin-bottom: 24px;
+}
+
+.event-description h4 {
+  font-size: 22px;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+
+.event-description h4 a {
+  color: #000;
+}
+
+.event-description p {
+  display: block;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 990px) {
+  .event-item {
+    margin-bottom: 55px;
+  }
+  .event-item:nth-last-child(2) {
+    margin-bottom: 55px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .event-thumb {
+    height: 280px;
+    margin-bottom: 16px;
+  }
+  .event-description h4 {
+    margin-bottom: 8px;
+  }
+  .event-description p {
+    margin-bottom: 12px;
+  }
+}
+
+/*# sourceMappingURL=../../maps/import/component-styles/events-page.css.map */

@@ -1,0 +1,121 @@
+$rb-font-path: '../fonts' !default;
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-style: normal;
+
+  src: url('#{$rb-font-path}/Montserrat-Light.eot');
+  src: local('Montserrat-Light'),
+  local('Montserrat-Light'),
+  url('#{$rb-font-path}/Montserrat-Light.eot') format('embedded-opentype'),
+  url('#{$rb-font-path}/Montserrat-Light.ttf') format('ttf'),
+  url('#{$rb-font-path}/Montserrat-Light.woff') format('woff'),
+  url('#{$rb-font-path}/Montserrat-Light.woff2') format('woff2'),
+  url('#{$rb-font-path}/Montserrat-Light.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-style: italic;
+
+  src: url('#{$rb-font-path}/Montserrat-LightItalic.eot');
+  src: local('Montserrat-LightItalic'),
+  local('Montserrat-LightItalic'),
+  url('#{$rb-font-path}/Montserrat-LightItalic.eot') format('embedded-opentype'),
+  url('#{$rb-font-path}/Montserrat-LightItalic.ttf') format('ttf'),
+  url('#{$rb-font-path}/Montserrat-LightItalic.woff') format('woff'),
+  url('#{$rb-font-path}/Montserrat-LightItalic.woff2') format('woff2'),
+  url('#{$rb-font-path}/Montserrat-LightItalic.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-style: normal;
+
+  src: url('#{$rb-font-path}/Montserrat-Regular.eot');
+  src: local('Montserrat-Regular'),
+  local('Montserrat-Regular'),
+  url('#{$rb-font-path}/Montserrat-Regular.eot') format('embedded-opentype'),
+  url('#{$rb-font-path}/Montserrat-Regular.ttf') format('ttf'),
+  url('#{$rb-font-path}/Montserrat-Regular.woff') format('woff'),
+  url('#{$rb-font-path}/Montserrat-Regular.woff2') format('woff2'),
+  url('#{$rb-font-path}/Montserrat-Regular.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-style: normal;
+
+  src: url('#{$rb-font-path}/Montserrat-Medium.eot');
+  src: local('Montserrat-Medium'),
+  local('Montserrat-Medium'),
+  url('#{$rb-font-path}/Montserrat-Medium.eot') format('embedded-opentype'),
+  url('#{$rb-font-path}/Montserrat-Medium.ttf') format('ttf'),
+  url('#{$rb-font-path}/Montserrat-Medium.woff') format('woff'),
+  url('#{$rb-font-path}/Montserrat-Medium.woff2') format('woff2'),
+  url('#{$rb-font-path}/Montserrat-Medium.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-style: normal;
+
+  src: url('#{$rb-font-path}/Montserrat-SemiBold.eot');
+  src: local('Montserrat-SemiBold'),
+  local('Montserrat-SemiBold'),
+  url('#{$rb-font-path}/Montserrat-SemiBold.eot') format('embedded-opentype'),
+  url('#{$rb-font-path}/Montserrat-SemiBold.ttf') format('ttf'),
+  url('#{$rb-font-path}/Montserrat-SemiBold.woff') format('woff'),
+  url('#{$rb-font-path}/Montserrat-SemiBold.woff2') format('woff2'),
+  url('#{$rb-font-path}/Montserrat-SemiBold.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-style: normal;
+
+  src: url('#{$rb-font-path}/Montserrat-Bold.eot');
+  src: local('Montserrat-Bold'),
+  local('Montserrat-Bold'),
+  url('#{$rb-font-path}/Montserrat-Bold.eot') format('embedded-opentype'),
+  url('#{$rb-font-path}/Montserrat-Bold.ttf') format('ttf'),
+  url('#{$rb-font-path}/Montserrat-Bold.woff') format('woff'),
+  url('#{$rb-font-path}/Montserrat-Bold.woff2') format('woff2'),
+  url('#{$rb-font-path}/Montserrat-Bold.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-style: normal;
+
+  src: url('#{$rb-font-path}/Montserrat-Black.eot');
+  src: local('Montserrat-Black'),
+  local('Montserrat-Black'),
+  url('#{$rb-font-path}/Montserrat-Black.eot') format('embedded-opentype'),
+  url('#{$rb-font-path}/Montserrat-Black.ttf') format('ttf'),
+  url('#{$rb-font-path}/Montserrat-Black.woff') format('woff'),
+  url('#{$rb-font-path}/Montserrat-Black.woff2') format('woff2'),
+  url('#{$rb-font-path}/Montserrat-Black.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'CenturyOld';
+  font-weight: 700;
+  font-style: normal;
+
+  src: url('#{$rb-font-path}/CenturyOldStyleStd-Bold.eot');
+  src: local('CenturyOldStyleStd-Bold'),
+  local('CenturyOldStyleStd-Bold'),
+  url('#{$rb-font-path}/CenturyOldStyleStd-Bold.eot') format('embedded-opentype'),
+  url('#{$rb-font-path}/CenturyOldStyleStd-Bold.ttf') format('otf'),
+  url('#{$rb-font-path}/CenturyOldStyleStd-Bold.woff') format('woff'),
+  url('#{$rb-font-path}/CenturyOldStyleStd-Bold.woff2') format('woff2'),
+  url('#{$rb-font-path}/CenturyOldStyleStd-Bold.svg') format('svg');
+}

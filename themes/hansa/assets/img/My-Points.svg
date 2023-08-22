@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>My Points</title>
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="My-Points">
+            <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+            <g id="Group-9" transform="translate(5.000000, 3.000000)" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25">
+                <ellipse id="Oval" cx="7" cy="4.375" rx="7" ry="4.375"></ellipse>
+                <path d="M14,13.125 C14,10.7087542 10.8659932,8.75 7,8.75 C3.13400675,8.75 0,10.7087542 0,13.125" id="Oval-Copy" transform="translate(7.000000, 10.937500) scale(1, -1) translate(-7.000000, -10.937500) "></path>
+                <path d="M14,17.5 C14,13.2774972 14,10.3608305 14,8.75 C14,6.33375422 10.8659932,4.375 7,4.375 C3.13400675,4.375 0,6.33375422 0,8.75 C0,10.3608305 0,13.2774972 0,17.5" id="Oval-Copy-2" transform="translate(7.000000, 10.937500) scale(1, -1) translate(-7.000000, -10.937500) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

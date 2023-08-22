@@ -1,0 +1,139 @@
+.flex {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+.flex-center {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between, .careers-wrap {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+}
+
+.absolute-center {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.transition {
+  transition: .3s all ease-out;
+}
+
+.careers-section {
+  margin-bottom: 110px;
+}
+
+.careers-wrap {
+  background-color: #fff;
+  border-radius: 2px;
+  overflow: hidden;
+  padding: 55px;
+}
+
+.careers-wrap .column-title {
+  font-size: 22px;
+  line-height: 26px;
+  margin-bottom: 40px;
+}
+
+.careers-wrap .careers-description {
+  width: 43%;
+  padding-right: 80px;
+  border-right: 1px solid #e9e9e9;
+}
+
+.careers-wrap .careers-description p {
+  display: block;
+  margin-bottom: 40px;
+}
+
+.careers-wrap .careers-description p a {
+  color: #FF7758;
+}
+
+.careers-wrap .careers-description img {
+  height: auto;
+}
+
+.careers-wrap .careers-form {
+  width: 48%;
+}
+
+.map {
+  width: 100%;
+  height: 240px;
+}
+
+.map iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 0;
+}
+
+.contact-banner_image {
+  margin-bottom: 24px;
+}
+
+@media screen and (max-width: 990px) {
+  .careers-wrap {
+    flex-wrap: wrap;
+  }
+  .careers-wrap .careers-description {
+    padding-right: 0;
+    border-right: 0;
+    margin-bottom: 55px;
+  }
+  .careers-wrap .careers-description, .careers-wrap .careers-form {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .careers-section {
+    margin-bottom: 55px;
+  }
+  .careers-wrap {
+    padding: 30px 20px;
+  }
+  .careers-wrap .column-title {
+    margin-bottom: 30px;
+  }
+  .careers-wrap .careers-description {
+    margin-bottom: 30px;
+  }
+  .careers-wrap .careers-description p {
+    margin-bottom: 30px;
+  }
+  .careers-form .form-row_inner {
+    flex-wrap: wrap;
+  }
+  .careers-form .form-row_inner .form-row_part--half {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .careers-form .form-row_inner .form-row_part--half:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/*# sourceMappingURL=../../maps/import/component-styles/careers.css.map */

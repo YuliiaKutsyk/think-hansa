@@ -1,0 +1,169 @@
+@charset "UTF-8";
+.flex {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+.flex-center {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between, .customise-banner_holder {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+}
+
+.absolute-center {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.transition {
+  transition: .3s all ease-out;
+}
+
+.customizse-banner {
+  background-color: #fff;
+  padding-bottom: 110px;
+}
+
+.customise-banner_holder {
+  background-color: #1F3300;
+  border-radius: 2px;
+  overflow: hidden;
+  padding: 55px 120px 55px 55px;
+  align-items: center;
+  position: relative;
+}
+
+.customise-banner_holder:after {
+  display: block;
+  content: '';
+  width: 625px;
+  height: 557px;
+  background: transparent url("../img/Moët&Chandon-Logo.svg") center no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 70px;
+  right: -290px;
+}
+
+.customise-banner_holder .banner-card {
+  width: 52%;
+  background-color: #fff;
+  border-radius: 2px;
+  overflow: hidden;
+  padding: 55px;
+  position: relative;
+  z-index: 10;
+}
+
+.customise-banner_holder .banner-card:before {
+  display: block;
+  content: '';
+  width: 280px;
+  height: 280px;
+  background: transparent url("../img/c-card-bg-1.png") center no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.customise-banner_holder .banner-card:after {
+  display: block;
+  content: '';
+  width: 280px;
+  height: 280px;
+  background: transparent url("../img/c-card-bg-2.png") center no-repeat;
+  background-size: contain;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.customise-banner_holder .banner-card h4 {
+  margin-bottom: 15px;
+  position: relative;
+  z-index: 5;
+}
+
+.customise-banner_holder .banner-card p {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.customise-banner_holder .right {
+  width: 35%;
+  position: relative;
+  z-index: 5;
+}
+
+@media screen and (max-width: 990px) {
+  .customizse-banner {
+    padding-bottom: 60px;
+  }
+  .customise-banner_holder {
+    padding: 55px;
+    flex-direction: column;
+  }
+  .customise-banner_holder:after {
+    top: unset;
+    bottom: -50px;
+    right: -240px;
+  }
+  .customise-banner_holder .banner-card {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  .customise-banner_holder .right {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .customizse-banner {
+    padding-bottom: 55px;
+  }
+  .customise-banner_holder {
+    padding: 20px;
+  }
+  .customise-banner_holder:after {
+    width: 485px;
+    height: 430px;
+    bottom: -40px;
+    right: -140px;
+  }
+  .customise-banner_holder .banner-card {
+    padding: 55px 20px;
+  }
+  .customise-banner_holder .banner-card:before, .customise-banner_holder .banner-card:after {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .customise-banner_holder .banner-card h4 {
+    font-size: 22px;
+    line-height: 26px;
+  }
+}
+
+/*# sourceMappingURL=../../maps/import/component-styles/customise-banner.css.map */

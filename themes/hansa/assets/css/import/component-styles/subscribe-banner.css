@@ -1,0 +1,181 @@
+.flex {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+.flex-center {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between, .subscribe-banner .subscribe-banner_titles {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+}
+
+.absolute-center {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.transition {
+  transition: .3s all ease-out;
+}
+
+.subscribe-section {
+  background-color: #fff;
+  padding-bottom: 110px;
+}
+
+.subscribe-banner {
+  position: relative;
+  border-radius: 2px;
+  overflow: hidden;
+  padding: 55px;
+}
+
+.subscribe-banner img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.subscribe-banner .subscribe-banner_titles {
+  position: relative;
+  z-index: 5;
+  flex-direction: column;
+  max-width: 550px;
+}
+
+.subscribe-banner h4 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.subscribe-banner p {
+  display: block;
+  color: #fff;
+  opacity: 0.8;
+  margin-bottom: 75px;
+}
+
+.subscribe-banner form {
+  position: relative;
+}
+
+.subscribe-banner form input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #D7D7D7;
+  padding-bottom: 15px;
+  color: #fff;
+  background: transparent;
+}
+
+.subscribe-banner form input::-webkit-input-placeholder {
+  font-size: 19px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 26px;
+  opacity: 0.7;
+}
+
+.subscribe-banner form input::-moz-placeholder {
+  font-size: 19px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 26px;
+  opacity: 0.7;
+}
+
+.subscribe-banner form input:-ms-input-placeholder {
+  font-size: 19px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 26px;
+  opacity: 0.7;
+}
+
+.subscribe-banner form input:-moz-placeholder {
+  font-size: 19px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 26px;
+  opacity: 0.7;
+}
+
+.subscribe-banner form input:focus {
+  outline: none;
+}
+
+.subscribe-banner form .submit-subscribe_form {
+  display: block;
+  border: 0;
+  width: 40px;
+  height: 40px;
+  background: transparent url("../img/arrow-right-white.svg") center no-repeat;
+  background-size: contain;
+  position: absolute;
+  right: 0;
+  bottom: 7px;
+}
+
+@media screen and (max-width: 990px) {
+  .subscribe-section {
+    padding-bottom: 60px;
+  }
+  .subscribe-banner {
+    padding: 55px 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .subscribe-section {
+    padding-bottom: 55px;
+  }
+  .subscribe-banner {
+    padding: 55px 20px;
+  }
+  .subscribe-banner p {
+    margin-bottom: 55px;
+  }
+  .subscribe-banner form input {
+    padding-bottom: 11px;
+  }
+  .subscribe-banner form input::-webkit-input-placeholder {
+    font-size: 17px;
+  }
+  .subscribe-banner form input::-moz-placeholder {
+    font-size: 17px;
+  }
+  .subscribe-banner form input:-ms-input-placeholder {
+    font-size: 17px;
+  }
+  .subscribe-banner form input:-moz-placeholder {
+    font-size: 17px;
+  }
+  .subscribe-banner form .submit-subscribe_form {
+    width: 32px;
+    height: 32px;
+    bottom: 6px;
+  }
+}
+
+/*# sourceMappingURL=../../maps/import/component-styles/subscribe-banner.css.map */

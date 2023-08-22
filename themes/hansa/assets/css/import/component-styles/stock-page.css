@@ -1,0 +1,82 @@
+.flex {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+.flex-center {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+}
+
+.absolute-center {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.transition {
+  transition: .3s all ease-out;
+}
+
+.stock-page_section {
+  padding-bottom: 110px;
+}
+
+.text-center {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.text-center h6 {
+  margin-bottom: 24px;
+}
+
+.text-center p {
+  display: block;
+  margin-bottom: 24px;
+}
+
+.text-center .blank-button {
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 500px) {
+  .stock-page_section {
+    padding-bottom: 55px;
+  }
+  .text-center {
+    max-width: 100%;
+  }
+  .text-center h6 {
+    margin-bottom: 16px;
+  }
+  .text-center p {
+    display: block;
+    margin-bottom: 16px;
+  }
+  .text-center .blank-button {
+    margin-top: 24px;
+  }
+}
+
+/*# sourceMappingURL=../../maps/import/component-styles/stock-page.css.map */

@@ -1,0 +1,135 @@
+.flex {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+.flex-center {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+}
+
+.absolute-center {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.transition {
+  transition: .3s all ease-out;
+}
+
+.instagram-section {
+  background-color: #fff;
+  padding-bottom: 110px;
+}
+
+.instagram-section .section-title {
+  margin-bottom: 8px;
+}
+
+.ff-stream {
+  width: 100% !important;
+  padding: 0 !important;
+  min-height: 100% !important;
+}
+
+.ff-stream-wrapper {
+  display: flex !important;
+  justify-content: space-between;
+  overflow: visible !important;
+  margin: 0 !important;
+  z-index: 1 !important;
+}
+
+.ff-stream-wrapper .ff-item {
+  position: static !important;
+  transform: none !important;
+  width: 24% !important;
+}
+
+.ff-stream-wrapper .ff-item .picture-item__inner {
+  box-shadow: none !important;
+  border: 1px solid #ecebea !important;
+}
+
+.ff-stream-wrapper .ff-item .ff-content, .ff-stream-wrapper .ff-item .ff-item-meta {
+  margin: 15px !important;
+}
+
+.ff-stream-wrapper .ff-item .ff-content {
+  height: 265px !important;
+  overflow: hidden;
+}
+
+.ff-stream-wrapper .ff-item .ff-img-holder {
+  height: 265px !important;
+}
+
+.ff-stream-wrapper .ff-item .ff-img-holder img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+
+.ff-stream-wrapper .ff-item .ff-item-bar {
+  display: none !important;
+}
+
+.ff-loadmore-wrapper, .shuffle__sizer {
+  display: none !important;
+}
+
+@media screen and (max-width: 990px) {
+  .instagram-section {
+    padding-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .instagram-section {
+    padding-bottom: 55px;
+  }
+  .ff-stream-wrapper {
+    flex-direction: column !important;
+    height: auto !important;
+  }
+  .ff-stream-wrapper .ff-item {
+    width: 100% !important;
+    margin-bottom: 20px !important;
+  }
+  .ff-stream-wrapper .ff-item:nth-child(4) {
+    display: none !important;
+  }
+  .ff-stream-wrapper .ff-item .ff-content {
+    height: 320px !important;
+  }
+  .ff-stream-wrapper .ff-item .ff-img-holder {
+    height: 320px !important;
+  }
+  .ff-stream-wrapper .ff-item .ff-img-holder img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+  }
+}
+
+/*# sourceMappingURL=../../maps/import/component-styles/instagram-section.css.map */

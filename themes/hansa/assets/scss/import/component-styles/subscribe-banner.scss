@@ -1,0 +1,137 @@
+@import "../variables";
+
+.subscribe-section {
+	background-color: #fff;
+	padding-bottom: 110px;
+}
+
+.subscribe-banner {
+	position: relative;
+	border-radius: 2px;
+	overflow: hidden;
+	padding: 55px;
+	img {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	.subscribe-banner_titles {
+		position: relative;
+		z-index: 5;
+		@extend .flex-between;
+		flex-direction: column;
+		max-width: 550px;
+	}
+	h4 {
+		color: #fff;
+		margin-bottom: 15px;
+	}
+	p {
+		display: block;
+		color: #fff;
+		opacity: 0.8;
+		margin-bottom: 75px;
+	}
+	form {
+		position: relative;
+		input {
+			display: block;
+			box-sizing: border-box;
+			width: 100%;
+			border: 0;
+			border-bottom: 1px solid #D7D7D7;
+			padding-bottom: 15px;
+			color: #fff;
+			background: transparent;
+			&::-webkit-input-placeholder {
+	            font-size: 19px;
+	            font-weight: 500;
+	            color: #fff;
+	            line-height: 26px;
+	            opacity: 0.7;
+	        }
+			&::-moz-placeholder {
+	            font-size: 19px;
+	            font-weight: 500;
+	            color: #fff;
+	            line-height: 26px;
+	            opacity: 0.7;
+	        }
+	        &:-ms-input-placeholder {
+	            font-size: 19px;
+	            font-weight: 500;
+	            color: #fff;
+	            line-height: 26px;
+	            opacity: 0.7;
+	        }
+	        &:-moz-placeholder {
+	            font-size: 19px;
+	            font-weight: 500;
+	            color: #fff;
+	            line-height: 26px;
+	            opacity: 0.7;
+	        }
+	        &:focus {
+	            outline: none;
+	        }
+		}
+		.submit-subscribe_form {
+			display: block;
+			border: 0;
+			width: 40px;
+			height: 40px;
+			background: transparent url('../img/arrow-right-white.svg') center no-repeat;
+			background-size: contain;
+			position: absolute;
+			right: 0;
+			bottom: 7px;
+		}
+	}
+}
+
+@media screen and(max-width: 990px) {
+	.subscribe-section {
+		padding-bottom: 60px;
+	}
+	.subscribe-banner {
+		padding: 55px 30px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.subscribe-section {
+		padding-bottom: 55px;
+	}
+	.subscribe-banner {
+		padding: 55px 20px;
+	}
+	.subscribe-banner {
+		p {
+			margin-bottom: 55px;
+		}
+	}
+	.subscribe-banner {
+		form {
+			input {
+				padding-bottom: 11px;
+				&::-webkit-input-placeholder {
+		            font-size: 17px;
+		        }
+				&::-moz-placeholder {
+		            font-size: 17px;
+		        }
+		        &:-ms-input-placeholder {
+		            font-size: 17px;
+		        }
+		        &:-moz-placeholder {
+		            font-size: 17px;
+		        }
+			}
+			.submit-subscribe_form {
+				width: 32px;
+				height: 32px;
+				bottom: 6px;
+			}
+		}
+	}
+}

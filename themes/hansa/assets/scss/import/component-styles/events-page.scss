@@ -1,0 +1,55 @@
+@import "../variables";
+
+.event-item {
+	margin-bottom: 55px;
+	&:last-child, &:nth-last-child(2) {
+		margin-bottom: 0;
+	}
+}
+
+.event-thumb {
+	display: block;
+	border-radius: 2px;
+	overflow: hidden;
+	height: 444px;
+	margin-bottom: 24px;
+}
+
+.event-description {
+	h4 {
+		font-size: 22px;
+		line-height: 26px;
+		margin-bottom: 16px;
+		a {
+			color: #000;
+		}
+	}
+	p {
+		display: block;
+		margin-bottom: 30px;
+	}
+}
+
+@media screen and (max-width: 990px) {
+	.event-item {
+		margin-bottom: 55px;
+		&:nth-last-child(2) {
+			margin-bottom: 55px;
+		}
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.event-thumb {
+		height: 280px;
+		margin-bottom: 16px;
+	}
+	.event-description  {
+		h4 {
+			margin-bottom: 8px;
+		}
+		p {
+			margin-bottom: 12px;
+		}
+	}
+}
